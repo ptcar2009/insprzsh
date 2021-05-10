@@ -1,5 +1,5 @@
 
-if [[ $commands[inspr] ]]
+if [ $commands[inspr] ]
 then
 	source <(inspr completion zsh)
 fi
