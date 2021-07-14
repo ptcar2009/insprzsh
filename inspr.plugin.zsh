@@ -1,28 +1,27 @@
-
-if [ $commands[inspr] ]
+if [ $commands[insprctl] ]
 then
-	source <(inspr completion zsh)
+	source <(insprctl completion zsh)
 fi
-alias i='inspr'
+alias i='insprctl'
 
-alias iga='inspr get apps'
-alias ida='inspr describe apps'
-alias idela='inspr delete apps'
+alias iga='insprctl get apps'
+alias ida='insprctl describe apps'
+alias idela='insprctl delete apps'
 
-alias igt='inspr get ctypes'
-alias idt='inspr describe ctypes'
-alias idelt='inspr delete ctypes'
+alias igt='insprctl get ctypes'
+alias idt='insprctl describe ctypes'
+alias idelt='insprctl delete ctypes'
 
-alias igc='inspr get channels'
-alias idc='inspr describe channels'
-alias idelc='inspr delete channels'
+alias igc='insprctl get channels'
+alias idc='insprctl describe channels'
+alias idelc='insprctl delete channels'
 
-alias iga='inspr get apps'
-alias ida='inspr describe apps'
-alias idela='inspr delete apps'
+alias iga='insprctl get apps'
+alias ida='insprctl describe apps'
+alias idela='insprctl delete apps'
 
-alias iaf='inspr apply -f'
-alias iad='inspr apply -k'
+alias iaf='insprctl apply -f'
+alias iad='insprctl apply -k'
 
-alias ico='inspr config'
-alias icl='inspr config list'
+alias ico='insprctl config'
+alias icl='insprctl config list'
